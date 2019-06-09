@@ -1,0 +1,7 @@
+layout('us');            // sets the keyboard layout to us
+press("WIN R")           // opens the run diaglog
+delay(500);             // waits 500ms for the dialog to open
+type("chrome.exe\n");   // opens chrome
+delay(1000);            // wait 1000ms for chrome to open
+type("youtube.com/watch?v=dQw4w9WgXcQ");    // types the url
+press("ENTER")        //presses enter 
